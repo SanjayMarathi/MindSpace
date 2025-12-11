@@ -1,98 +1,88 @@
-# MindSpace — AI-Powered Social Media Language Analysis
+<h1>📸 Screenshots</h1>
 
 ---
 
+<h2 align="center">1️⃣ Home Page — Start New Analysis</h2>
 <p align="center">
-  <img src="screenshots/DarkTheme.png" width="900" alt="MindSpace Dark Report" />
+  <img src="outputs/Main.png" width="700" />
 </p>
+<p align="center">Users land on the main interface and choose to start a new analysis.</p>
 
 ---
 
-# 📸 Screenshots
-
-### <p align="center">📊 Dark Themed Detailed Report</p>
-
+<h2 align="center">2️⃣ Platform Selection Modal</h2>
 <p align="center">
-  <img src="screenshots/DarkTheme.png" width="700" alt="Dark Theme Report" />
+  <img src="outputs/PlatformSelection.png" width="700" />
 </p>
-<p align="center">Dark themed results page showing overall verdict, summaries, and visualizations.</p>
+<p align="center">User selects the platform: Reddit, Instagram, or Twitter/X.</p>
 
 ---
 
-### <p align="center">🔎 Detailed Analysis (Posts List)</p>
-
+<h2 align="center">3️⃣ Enter Username / Profile URL</h2>
 <p align="center">
-  <img src="screenshots/DetailedAna.png" width="700" alt="Detailed Analysis" />
+  <img src="outputs/UsernameExt.png" width="700" />
 </p>
-<p align="center">Per‑post cards with sentiment breakdown, abnormality probability, and metadata.</p>
+<p align="center">User inputs a public profile ID for analysis.</p>
 
 ---
 
-### <p align="center">📈 Graphs & Trends</p>
-
+<h2 align="center">4️⃣ Login Page (Optional)</h2>
 <p align="center">
-  <img src="screenshots/Graphs.png" width="700" alt="Graphs & Trends" />
+  <img src="outputs/Login.png" width="700" />
 </p>
-<p align="center">Time series for abnormality and sentiment trends and an average sentiment breakdown chart.</p>
+<p align="center">Optional login for storing analysis history.</p>
 
 ---
 
-### <p align="center">🕘 Analysis History</p>
-
+<h2 align="center">5️⃣ Register Page</h2>
 <p align="center">
-  <img src="screenshots/History.png" width="700" alt="Analysis History" />
+  <img src="outputs/Register.png" width="700" />
 </p>
-<p align="center">Saved analysis history with quick summary blocks and downloadable PDF reports.</p>
+<p align="center">Simple registration form for account creation.</p>
+
+---
+<h2 align="center">6️⃣Graph Insights — Sentiment & Abnormality Trends</h2>
+<p align="center">
+  <img src="outputs/Graphs.png" width="700" />
+</p>
+<p align="center">Visual trends over time for abnormality and negative sentiment.</p>
 
 ---
 
-### <p align="center">🔑 Login / Register</p>
-
+<h2 align="center">7️⃣ Per‑Post Detailed Sentiment & Abnormality Breakdown</h2>
 <p align="center">
-  <img src="screenshots/Login.png" width="700" alt="Login Page" />
+  <img src="outputs/DetailedAna.png" width="700" />
 </p>
-<p align="center">Simple authentication pages for saving and revisiting analysis history.</p>
+<p align="center">Each scraped post includes sentiment scores and abnormality probability.</p>
+
+---
+<h2 align="center">8️⃣ Dark Theme</h2>
+<p align="center">
+  <img src="outputs/DarkTheme.png" width="700" />
+</p>
+<p align="center">Full analysis summary showing verdict, average sentiment, abnormality %, and graphs.</p>
+
 
 ---
 
-### <p align="center">🏠 Main Landing</p>
-
+<h2 align="center">9️⃣ Analysis History Page</h2>
 <p align="center">
-  <img src="screenshots/Main.png" width="700" alt="Main Landing" />
+  <img src="outputs/History.png" width="700" />
 </p>
-<p align="center">Start a new analysis or view project details. Platform selection modal available for choosing Reddit / Instagram / Twitter/X.</p>
+<p align="center">List of all previous analyses with quick metrics and PDF download links.</p>
 
 ---
 
-### <p align="center">📄 Generated PDF Report</p>
+## 🔟 Generated PDF Report Preview
 
 <p align="center">
-  <img src="screenshots/PDFGenerated.png" width="700" alt="PDF Generated" />
+  <img src="outputs/PDFGenerated.png" width="700" />
 </p>
-<p align="center">Professionally formatted PDF summary automatically generated from the analysis.</p>
+<p align="center">Professional PDF generated summarizing the analysis with charts.</p>
 
 ---
 
-### <p align="center">🔎 Platform Selection</p>
-
-<p align="center">
-  <img src="screenshots/PlatformSelection.png" width="700" alt="Platform Selection" />
-</p>
-
----
-
-### <p align="center">📝 Register / Username Entry</p>
-
-<p align="center">
-  <img src="screenshots/Register.png" width="700" alt="Register Page" />
-</p>
-<p align="center">
-  <img src="screenshots/UsernameExt.png" width="700" alt="Username Entry" />
-</p>
-
----
-
-# MindSpace — Short Description
+# MindSpace
 
 MindSpace is a full‑stack web application that analyzes public social media posts for abnormality (risk) indicators and sentiment. It uses a dual‑engine approach (custom Naïve Bayes abnormality model + NLTK VADER sentiment scores) to produce interactive charts, per‑post breakdowns, and downloadable PDF reports. Registered users can save and revisit analysis history.
 
@@ -206,7 +196,7 @@ MindSpace/
 
 # 📝 Developer Notes
 
-* Keep screenshots in `screenshots/` for README rendering on GitHub.
+* Keep screenshots in `outputs/` for README rendering on GitHub.
 * Place ML model files in `models/` and load them from the analysis pipeline.
 * When deploying, ensure Matplotlib fonts are available to avoid PDF rendering issues.
 * Respect platform scraping policies and rate limits — use official APIs where required.
@@ -221,5 +211,3 @@ GitHub: https://github.com/SanjayMarathi
 ```
 
 ---
-
-If you want this converted exactly into the `README.md` file (ready to drop into the repo), or want a shortened landing README and a separate `DEVELOPER.md` with setup and model details, tell me which and I'll produce the file.
